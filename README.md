@@ -44,28 +44,28 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/kingofgetban-cmyk/SCP
 - **Dropped Items ESP**: Outlines and labels dropped guns, keycards, and medical gear.
 
 ### 🎨 Weapon Skin Changer & Tactical Attachments Suite
-- **Tactical Attachments (Multi-Select)**: Equip **Suppressor (ปลอกเก็บเสียง)**, **Laser Sight (เลเซอร์แทคติคอลพร้อมแสงบีม)**, and **Tactical Scope (สโคปเล็งพร้อมเป้าเรืองแสง)** simultaneously via multi-select dropdown or quick toggles. Suppressor automatically muffles gunshot audio to tactical whisper!
-- **Tactical Military Camo Patterns (ลายพรางปืน)**: High-definition military camo patterns including **Woodland Camo (ลายพรางทหารเขียว)**, **Desert Digital Camo (ลายพรางทะเลทรายดิจิตอล)**, **Arctic Winter Camo (ลายพรางหิมะ)**, **Tigerstripe (ลายเสือ)**, **Night Ops Dark Camo**, **Urban Flecktarn**, **Dragon Magma**, **Carbon Fiber Weave**, **Damascus Steel Wave**, and **Galaxy Nebula**.
+- **Tactical Attachments (Multi-Select)**: Equip **Suppressor**, **Laser Sight**, and **Tactical Scope** simultaneously via multi-select dropdown or quick toggles. Suppressor automatically muffles gunshot audio to tactical whisper!
+- **Tactical Military Camo Patterns**: High-definition military camo patterns including **Woodland Military Camo**, **Desert Digital Camo**, **Arctic Winter Camo**, **Tigerstripe Tactical**, **Night Ops Dark Camo**, **Urban Flecktarn**, **Dragon Magma Scale**, **Carbon Fiber Weave**, **Damascus Steel Wave**, and **Galaxy Nebula**.
 - **Weapon Skin Styles**: Gold Deluxe (24K Pure Gold), Holographic Forcefield (Animated Energy Wrap), Cyber Neon Blue, Crimson Dragon, Obsidian Shadow, Emerald Viper, Amethyst Galaxy, Arctic Glaze, and Rainbow Chroma (Dynamic Real-Time RGB Cycle).
 - **Official Particle Skins**: Direct integration with Site-76's official `ParticleSkins` library (Galaxy, Lightning 1/2/3, Dragon Embers, Cosmic Stars, Space Dust, Black Smoke, Frost, Flakes, Heart Particles, Halloween 2025, Anniversary 2025, Easter 2026, Red Raid, Blue Raid).
 - **Muzzle Fire & Flash FX**: Custom muzzle fire particles (Plasma Burst, Dragon Flame, Electric Arc, Void Dark, Rainbow Sparkles) with dynamic muzzle flash light illumination.
 - **Custom Firing Sounds**: Real-time sound replacement with high-caliber audio (Sci-Fi Laser Pulse, Heavy 50 Cal Thunder, Silenced Whisper Tactical, Plasma Railgun Burst, Energy Blaster Hit, AK-47 Thunder, Spas-12 Shotgun, Tactical Pistol, M16A4 Military) with customizable Pitch Slider (0.5x - 2.0x).
 - **Auto-Equip Engine**: Automatically detects weapon switches and equips the selected skin, camo, attachments, particles, and sounds instantaneously.
 
-### ☠️ Official Game Kill Effects & Death Boxes (เอฟเฟคการตายของเกม Site-76 แท้ 100%)
-- **Official In-Game Kill Effects Engine**: เชื่อมต่อโดยตรงกับโมดูลแท้ของเกม `ReplicatedStorage.ClientHandlers.KillEffects` เมื่อยิงศัตรูตายจะแสดงผลเอฟเฟกต์ตายของตัวเกมจริง
+### ☠️ Official Game Kill Effects & Death Boxes (Site-76 Official Engine)
+- **Official In-Game Kill Effects Engine**: Directly hooks into the official `ReplicatedStorage.ClientHandlers.KillEffects` module to trigger authentic death animations upon eliminating enemies.
 - **Official Death Boxes & Bundles**:
-  - **Gift Box (กล่องของขวัญ)**: เสกกล่องของขวัญของเกมพร้อมห่อดูดร่างศัตรูเข้าไปในกล่อง
-  - **Casket (โลงศพฮาโลวีน)**: เสกโลงศพของเกมขึ้นมาจากพื้นครอบร่างผู้เสียชีวิต
-  - **Tombstone (หลุมศพ Rest In Peace)**: เสกป้ายหลุมศพหินของเกมพร้อมแอนิเมชันจมลงดิน
-  - **SCP Crate (กล่องคอนเทนเนอร์ SCP)**: ดรอปตู้คอนเทนเนอร์ SCP ของแท้ลงบนจุดที่ศัตรูล้มลง
-  - **Ice Cube (แช่แข็งก้อนน้ำแข็ง)**: แช่แข็งร่างศัตรูกลายเป็นก้อนน้ำแข็งยักษ์พร้อมเสียงแตกสลาย
-  - **Blackhole (หลุมดำดูดกลืน)**: หลุมดำหมุนวนดูดกลืนร่างศัตรูหายไปในมิติ
-  - **Atomic Rebinding (สลายอะตอม)**: สลายร่างระดับโมเลกุลอะตอม
-  - **Disintegration / Defragmentation**: สลายร่างเป็นผงละอองดิจิทัล
-  - **Black Flame / Northern Lights / Foundation Seal / Gold Wrap / Obsidian**: เอฟเฟกต์พิเศษอื่นๆ ของเกมครบครัน
-- **Kill Confirmation Banner**: ป้ายประกาศแจ้งเตือนการกำจัดเป้าหมายขึ้นบนหน้าจอแบบเรียลไทม์
-- **Trigger Modes**: เลือกระบบการเกิดเอฟเฟกต์ได้ (My Kills Only, All Nearby Enemies, All Player Deaths)
+  - **Gift Box**: Spawns official holiday gift box and compresses victim corpse into the present.
+  - **Casket**: Spawns authentic Halloween casket rising from the ground.
+  - **Tombstone**: Spawns engraved tombstone sinking victim into the earth.
+  - **SCP Crate**: Drops authentic containment SCP crate at the victim's death coordinates.
+  - **Ice Cube**: Freezes victim into giant ice block with shattering sounds.
+  - **Blackhole**: Gravitational blackhole sucking corpse into the void.
+  - **Atomic Rebinding**: Disintegrates victim at atomic level.
+  - **Disintegration / Defragmentation**: Disintegrates or pixelates corpse into digital particles.
+  - **Black Flame / Northern Lights / Foundation Seal / Gold Wrap / Obsidian**: Complete official visual FX suite.
+- **Kill Confirmation Banner**: Real-time on-screen banner notifying target elimination.
+- **Trigger**: Strictly triggers on "My Kills Only" (direct confirmed eliminations).
 
 ### 🚪 Facility & Security Bypass
 - **Ghost Doors**: Automatically sets `CanCollide = false` on all facility doors within 40 studs.
