@@ -43,14 +43,19 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/kingofgetban-cmyk/SCP
 - **SCP ESP**: Tracks all SCP entities (SCP-173, SCP-096, SCP-106, SCP-049, SCP-939, SCP-076, SCP-966).
 - **Dropped Items ESP**: Outlines and labels dropped guns, keycards, and medical gear.
 
+### 🎨 Weapon Skin Changer Suite (Skins, Particles, Muzzle Fire & Sounds)
+- **Weapon Skin Styles**: Gold Deluxe (24K Pure Gold), Holographic Forcefield (Animated Energy Wrap), Cyber Neon Blue, Crimson Dragon, Obsidian Shadow, Emerald Viper, Amethyst Galaxy, Arctic Glaze, and Rainbow Chroma (Dynamic Real-Time RGB Cycle).
+- **Official Particle Skins**: Direct integration with Site-76's official `ParticleSkins` library (Galaxy, Lightning 1/2/3, Dragon Embers, Cosmic Stars, Space Dust, Black Smoke, Frost, Flakes, Heart Particles, Halloween 2025, Anniversary 2025, Easter 2026, Red Raid, Blue Raid).
+- **Muzzle Fire & Flash FX**: Custom muzzle fire particles (Plasma Burst, Dragon Flame, Electric Arc, Void Dark, Rainbow Sparkles) with dynamic muzzle flash light illumination.
+- **Custom Firing Sounds**: Real-time sound replacement with high-caliber audio (Sci-Fi Laser Pulse, Heavy 50 Cal Thunder, Silenced Whisper Tactical, Plasma Railgun Burst, Energy Blaster Hit) with customizable Pitch Slider (0.5x - 2.0x).
+- **Auto-Equip Engine**: Automatically detects weapon switches and equips the selected skin, particles, muzzle fire, and sound instantaneously.
+
 ### 🚪 Facility & Security Bypass
 - **Ghost Doors**: Automatically sets `CanCollide = false` on all facility doors within 40 studs.
 - **Phase Blink (Hotkey `V`)**: Instantly phase 10 studs forward through heavy blast doors and keycard gates.
-- **Noclip (Hotkey `N`)**: Freely walk through walls and obstacles.
 - **Instant Prompts**: Sets all `ProximityPrompt.HoldDuration = 0` (0-second instant interactions).
 - **Persistent O5 Keycard**: Automatically equips and re-steals O5 Keycard if dropped or removed.
 - **Fullbright (Night Vision)**: Removes shadows and brightens dark containment corridors.
-- **Speed Boost**: Configurable walkspeed multiplier.
 
 ### 📡 Spy Chat & Intelligence Interceptor
 - **Roblox Chat Box Restoration**: Overrides Site-76's hidden chat window, restoring the native Roblox chat box.
