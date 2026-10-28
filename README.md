@@ -43,12 +43,14 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/kingofgetban-cmyk/SCP
 - **SCP ESP**: Tracks all SCP entities (SCP-173, SCP-096, SCP-106, SCP-049, SCP-939, SCP-076, SCP-966).
 - **Dropped Items ESP**: Outlines and labels dropped guns, keycards, and medical gear.
 
-### 🎨 Weapon Skin Changer Suite (Skins, Particles, Muzzle Fire & Sounds)
+### 🎨 Weapon Skin Changer & Tactical Attachments Suite
+- **Tactical Attachments (Multi-Select)**: Equip **Suppressor (ปลอกเก็บเสียง)**, **Laser Sight (เลเซอร์แทคติคอลพร้อมแสงบีม)**, and **Tactical Scope (สโคปเล็งพร้อมเป้าเรืองแสง)** simultaneously via multi-select dropdown or quick toggles. Suppressor automatically muffles gunshot audio to tactical whisper!
+- **Tactical Military Camo Patterns (ลายพรางปืน)**: High-definition military camo patterns including **Woodland Camo (ลายพรางทหารเขียว)**, **Desert Digital Camo (ลายพรางทะเลทรายดิจิตอล)**, **Arctic Winter Camo (ลายพรางหิมะ)**, **Tigerstripe (ลายเสือ)**, **Night Ops Dark Camo**, **Urban Flecktarn**, **Dragon Magma**, **Carbon Fiber Weave**, **Damascus Steel Wave**, and **Galaxy Nebula**.
 - **Weapon Skin Styles**: Gold Deluxe (24K Pure Gold), Holographic Forcefield (Animated Energy Wrap), Cyber Neon Blue, Crimson Dragon, Obsidian Shadow, Emerald Viper, Amethyst Galaxy, Arctic Glaze, and Rainbow Chroma (Dynamic Real-Time RGB Cycle).
 - **Official Particle Skins**: Direct integration with Site-76's official `ParticleSkins` library (Galaxy, Lightning 1/2/3, Dragon Embers, Cosmic Stars, Space Dust, Black Smoke, Frost, Flakes, Heart Particles, Halloween 2025, Anniversary 2025, Easter 2026, Red Raid, Blue Raid).
 - **Muzzle Fire & Flash FX**: Custom muzzle fire particles (Plasma Burst, Dragon Flame, Electric Arc, Void Dark, Rainbow Sparkles) with dynamic muzzle flash light illumination.
 - **Custom Firing Sounds**: Real-time sound replacement with high-caliber audio (Sci-Fi Laser Pulse, Heavy 50 Cal Thunder, Silenced Whisper Tactical, Plasma Railgun Burst, Energy Blaster Hit) with customizable Pitch Slider (0.5x - 2.0x).
-- **Auto-Equip Engine**: Automatically detects weapon switches and equips the selected skin, particles, muzzle fire, and sound instantaneously.
+- **Auto-Equip Engine**: Automatically detects weapon switches and equips the selected skin, camo, attachments, particles, and sounds instantaneously.
 
 ### 🚪 Facility & Security Bypass
 - **Ghost Doors**: Automatically sets `CanCollide = false` on all facility doors within 40 studs.
