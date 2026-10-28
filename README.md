@@ -49,8 +49,17 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/kingofgetban-cmyk/SCP
 - **Weapon Skin Styles**: Gold Deluxe (24K Pure Gold), Holographic Forcefield (Animated Energy Wrap), Cyber Neon Blue, Crimson Dragon, Obsidian Shadow, Emerald Viper, Amethyst Galaxy, Arctic Glaze, and Rainbow Chroma (Dynamic Real-Time RGB Cycle).
 - **Official Particle Skins**: Direct integration with Site-76's official `ParticleSkins` library (Galaxy, Lightning 1/2/3, Dragon Embers, Cosmic Stars, Space Dust, Black Smoke, Frost, Flakes, Heart Particles, Halloween 2025, Anniversary 2025, Easter 2026, Red Raid, Blue Raid).
 - **Muzzle Fire & Flash FX**: Custom muzzle fire particles (Plasma Burst, Dragon Flame, Electric Arc, Void Dark, Rainbow Sparkles) with dynamic muzzle flash light illumination.
-- **Custom Firing Sounds**: Real-time sound replacement with high-caliber audio (Sci-Fi Laser Pulse, Heavy 50 Cal Thunder, Silenced Whisper Tactical, Plasma Railgun Burst, Energy Blaster Hit) with customizable Pitch Slider (0.5x - 2.0x).
+- **Custom Firing Sounds**: Real-time sound replacement with high-caliber audio (Sci-Fi Laser Pulse, Heavy 50 Cal Thunder, Silenced Whisper Tactical, Plasma Railgun Burst, Energy Blaster Hit, AK-47 Thunder, Spas-12 Shotgun, Tactical Pistol, M16A4 Military) with customizable Pitch Slider (0.5x - 2.0x).
 - **Auto-Equip Engine**: Automatically detects weapon switches and equips the selected skin, camo, attachments, particles, and sounds instantaneously.
+
+### 📦 Elimination FX & Tactical Dead Box (กล่องศพสไตล์ Apex Legends / Warzone)
+- **3D Tactical Dead Box**: เมื่อกำจัดศัตรูสำเร็จ กล่องศพแทคติคอล (Death Crate) จะดรอปตกลงสู่พื้นดินทันทีพร้อมระเบิดเอฟเฟกต์แสงสี
+- **Apex Sky Beacon Light Pillar**: เสาลำแสงส่องพุ่งขึ้นสู่ท้องฟ้า 95 studs (Sky Light Pillar) เหมือนกล่อง Death Box ใน Apex Legends เพื่อระบุจุดสังหาร
+- **6 Death Box Themes & Rarities**: เลือกความหายากและสีธีมได้อิสระ (Apex Gold Legendary, Apex Red Heirloom, Cyber Neon Cyan, Void Purple Epic, Military Green Rare, Team Color Adaptive)
+- **Floating 3D Hologram**: แสดงป้ายโฮโลแกรมลอยเหนือกล่องศพ ระบุชื่อผู้เสียชีวิต แผนก/ฝ่าย (Class-D, Chaos, MTF)
+- **Kill Confirmation Sounds**: เสียงยืนยันการสังหาร (Tactical Ping, Chimes Victory, Chess Ding, Neck Snap Crunch, Digital Hit)
+- **Elimination Banner Notification**: ป้ายประกาศแจ้งเตือนการกำจัดเป้าหมายขึ้นบนหน้าจอแบบเรียลไทม์
+- **Trigger Modes**: เลือกระบบการดรอปกล่องได้ (My Kills Only, All Nearby Enemies, All Player Deaths)
 
 ### 🚪 Facility & Security Bypass
 - **Ghost Doors**: Automatically sets `CanCollide = false` on all facility doors within 40 studs.
