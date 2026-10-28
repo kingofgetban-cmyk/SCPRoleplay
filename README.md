@@ -52,14 +52,20 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/kingofgetban-cmyk/SCP
 - **Custom Firing Sounds**: Real-time sound replacement with high-caliber audio (Sci-Fi Laser Pulse, Heavy 50 Cal Thunder, Silenced Whisper Tactical, Plasma Railgun Burst, Energy Blaster Hit, AK-47 Thunder, Spas-12 Shotgun, Tactical Pistol, M16A4 Military) with customizable Pitch Slider (0.5x - 2.0x).
 - **Auto-Equip Engine**: Automatically detects weapon switches and equips the selected skin, camo, attachments, particles, and sounds instantaneously.
 
-### 📦 Elimination FX & Tactical Dead Box (กล่องศพสไตล์ Apex Legends / Warzone)
-- **3D Tactical Dead Box**: เมื่อกำจัดศัตรูสำเร็จ กล่องศพแทคติคอล (Death Crate) จะดรอปตกลงสู่พื้นดินทันทีพร้อมระเบิดเอฟเฟกต์แสงสี
-- **Apex Sky Beacon Light Pillar**: เสาลำแสงส่องพุ่งขึ้นสู่ท้องฟ้า 95 studs (Sky Light Pillar) เหมือนกล่อง Death Box ใน Apex Legends เพื่อระบุจุดสังหาร
-- **6 Death Box Themes & Rarities**: เลือกความหายากและสีธีมได้อิสระ (Apex Gold Legendary, Apex Red Heirloom, Cyber Neon Cyan, Void Purple Epic, Military Green Rare, Team Color Adaptive)
-- **Floating 3D Hologram**: แสดงป้ายโฮโลแกรมลอยเหนือกล่องศพ ระบุชื่อผู้เสียชีวิต แผนก/ฝ่าย (Class-D, Chaos, MTF)
-- **Kill Confirmation Sounds**: เสียงยืนยันการสังหาร (Tactical Ping, Chimes Victory, Chess Ding, Neck Snap Crunch, Digital Hit)
-- **Elimination Banner Notification**: ป้ายประกาศแจ้งเตือนการกำจัดเป้าหมายขึ้นบนหน้าจอแบบเรียลไทม์
-- **Trigger Modes**: เลือกระบบการดรอปกล่องได้ (My Kills Only, All Nearby Enemies, All Player Deaths)
+### ☠️ Official Game Kill Effects & Death Boxes (เอฟเฟคการตายของเกม Site-76 แท้ 100%)
+- **Official In-Game Kill Effects Engine**: เชื่อมต่อโดยตรงกับโมดูลแท้ของเกม `ReplicatedStorage.ClientHandlers.KillEffects` เมื่อยิงศัตรูตายจะแสดงผลเอฟเฟกต์ตายของตัวเกมจริง
+- **Official Death Boxes & Bundles**:
+  - **Gift Box (กล่องของขวัญ)**: เสกกล่องของขวัญของเกมพร้อมห่อดูดร่างศัตรูเข้าไปในกล่อง
+  - **Casket (โลงศพฮาโลวีน)**: เสกโลงศพของเกมขึ้นมาจากพื้นครอบร่างผู้เสียชีวิต
+  - **Tombstone (หลุมศพ Rest In Peace)**: เสกป้ายหลุมศพหินของเกมพร้อมแอนิเมชันจมลงดิน
+  - **SCP Crate (กล่องคอนเทนเนอร์ SCP)**: ดรอปตู้คอนเทนเนอร์ SCP ของแท้ลงบนจุดที่ศัตรูล้มลง
+  - **Ice Cube (แช่แข็งก้อนน้ำแข็ง)**: แช่แข็งร่างศัตรูกลายเป็นก้อนน้ำแข็งยักษ์พร้อมเสียงแตกสลาย
+  - **Blackhole (หลุมดำดูดกลืน)**: หลุมดำหมุนวนดูดกลืนร่างศัตรูหายไปในมิติ
+  - **Atomic Rebinding (สลายอะตอม)**: สลายร่างระดับโมเลกุลอะตอม
+  - **Disintegration / Defragmentation**: สลายร่างเป็นผงละอองดิจิทัล
+  - **Black Flame / Northern Lights / Foundation Seal / Gold Wrap / Obsidian**: เอฟเฟกต์พิเศษอื่นๆ ของเกมครบครัน
+- **Kill Confirmation Banner**: ป้ายประกาศแจ้งเตือนการกำจัดเป้าหมายขึ้นบนหน้าจอแบบเรียลไทม์
+- **Trigger Modes**: เลือกระบบการเกิดเอฟเฟกต์ได้ (My Kills Only, All Nearby Enemies, All Player Deaths)
 
 ### 🚪 Facility & Security Bypass
 - **Ghost Doors**: Automatically sets `CanCollide = false` on all facility doors within 40 studs.
