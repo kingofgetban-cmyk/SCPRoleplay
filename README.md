@@ -80,6 +80,14 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/kingofgetban-cmyk/SCP
 - **SCP Chambers**: Instant teleports to SCP-173, 096, 106, 049, 939, 087, 023, 076, 079, 966.
 - **Sectors & Bases**: Instant waypoints to CDC, Sector 1, Sector 2, Heavy Containment, Warhead, Chaos Base, and MTF Spawn.
 
+### 🛡️ Moderator & Staff Detector (Anti-Staff & Panic Mode)
+- **Metatable Games Group Scanner**: Scans all players in the server against Metatable Games (Group ID: 5479038) roles (Trial Mod, Game Mod, Senior Mod, Head Mod, Developer, PM, Coordinator, Admin).
+- **Staff Join Alerts**: Instant on-screen notification and spy chat alert when any staff member enters the server.
+- **Auto Disable All Features**: Automatically turns off all cheat functions (Aimbot, Triggerbot, Drawing ESP, Chams, Ghost Doors, Noclip, Speedboost, etc.) immediately upon staff detection.
+- **Auto Leave / Disconnect**: Automatically disconnects you from the server with a configurable delay to prevent staff spectating or ban registration.
+- **Manual Panic Switch**: One-click button to instantly kill all active visuals, hooks, and modifications.
+- **Server Rejoin**: Quick button to safely hop or reconnect.
+
 ---
 
 ## 🔒 Security & Credits
