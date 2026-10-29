@@ -52,12 +52,13 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/kingofgetban-cmyk/SCP
 - **Custom Firing Sounds**: Real-time sound replacement with high-caliber audio (Sci-Fi Laser Pulse, Heavy 50 Cal Thunder, Silenced Whisper Tactical, Plasma Railgun Burst, Energy Blaster Hit, AK-47 Thunder, Spas-12 Shotgun, Tactical Pistol, M16A4 Military) with customizable Pitch Slider (0.5x - 2.0x).
 - **Auto-Equip Engine**: Automatically detects weapon switches and equips the selected skin, camo, attachments, particles, and sounds instantaneously.
 
-### 🛡️ Official Site-76 UGC Equipment Suite (Zero-Conflict Direct Engine)
-- **Official UGC Models**: Direct client invocation of Site-76's permanent `ReplicatedStorage.LoadAsset.UGC` models:
-  - **UGC Headwear & Helmets**: **The Nova Dominion Helmet**, **FAST High-Cut Tactical Helmet**, **FAST Helmet Addons**, and **SCP-131 "Eye Pods" Earrings**.
-  - **UGC Bodywear & Armor**: **Tactical Vest Var1**, **Tactical Vest Var1 Blue**, **Cyber Exoskeleton Frame**, **3 Magazines Chest Rig**, and **Entity-007 "Man of Bricks" Plushie**.
-- **100% Physics Safe**: Completely isolated from player morphs (`MorphAssets`) with zero residual welds/joints, preventing any unwanted physics dragging or player pulling.
-- **Auto-Reapply on Respawn**: Automatically re-equips selected UGC headwear and armor upon character respawn.
+### 🛡️ All-Inclusive Site-76 Character Wearables Suite (Zero-Conflict Direct Engine)
+- **All In-Game Wearable Items**: Complete coverage of all 24+ authentic 3D wearables from Site-76's internal assets:
+  - **Headwear, Helmets & Masks**: **The Nova Dominion Helmet**, **FAST High-Cut Tactical Helmet**, **FAST Helmet Addons**, **GOC Combat Helmet & Quad NVG**, **TSH Serpent's Hand Helmet**, **GRU-P Tactical Helmet**, **MTF Facility Security Helmet**, **SCP-096 Shy Guy Bag**, **Flower Head Hat**, **SCP-131 "Eye Pods" Earrings**, **Mad Scientist Hair**, **Shadow Ninja Mask**, **Holiday Santa Hat**, **Chef Gourmet Hat**, and **Tactical Sunglasses**.
+  - **Tactical Vests, Body Armor & Rigs**: **Tactical Vest Var1**, **Tactical Vest Var1 Blue**, **Cyber Exoskeleton Frame**, **3 Magazines Chest Rig**, **GOC Heavy Combat Plate Carrier**, **TSH Serpent's Hand Combat Rig**, **GRU-P Tactical Armor Rig**, **MTF Facility Body Armor**, **SCP-049 Plague Doctor Cloak**, and **Entity-007 "Man of Bricks" Plushie**.
+  - **Backpacks, Capes & Gear Accessories**: **ISD Tactical Backpack**, **GOC Tactical Field Pack**, **The Serpents Hand Cape**, **Epsilon-11 NTF Blue Scarf**, **ISD Red Combat Shemagh**, **Christmas Holiday Scarf**, **Epsilon-11 Foliage Camo**, and **ISD Tactical Watch**.
+- **100% Physics Safe**: Dual-mode engine with native Roblox `AccessoryWeld` attachment alignment and external weld-severing logic that guarantees zero player dragging or physics glitches.
+- **Auto-Reapply on Respawn**: Automatically re-equips all chosen headwear, body armor, and backpacks upon player respawn.
 
 ### ☠️ Official Game Kill Effects & Death Boxes (Site-76 Official Engine)
 - **Official In-Game Kill Effects Engine**: Directly hooks into the official `ReplicatedStorage.ClientHandlers.KillEffects` module to trigger authentic death animations upon eliminating enemies.
