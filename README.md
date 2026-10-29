@@ -52,6 +52,13 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/kingofgetban-cmyk/SCP
 - **Custom Firing Sounds**: Real-time sound replacement with high-caliber audio (Sci-Fi Laser Pulse, Heavy 50 Cal Thunder, Silenced Whisper Tactical, Plasma Railgun Burst, Energy Blaster Hit, AK-47 Thunder, Spas-12 Shotgun, Tactical Pistol, M16A4 Military) with customizable Pitch Slider (0.5x - 2.0x).
 - **Auto-Equip Engine**: Automatically detects weapon switches and equips the selected skin, camo, attachments, particles, and sounds instantaneously.
 
+### 🛡️ Official Site-76 UGC Equipment Suite (Zero-Conflict Direct Engine)
+- **Official UGC Models**: Direct client invocation of Site-76's permanent `ReplicatedStorage.LoadAsset.UGC` models:
+  - **UGC Headwear & Helmets**: **The Nova Dominion Helmet**, **FAST High-Cut Tactical Helmet**, **FAST Helmet Addons**, and **SCP-131 "Eye Pods" Earrings**.
+  - **UGC Bodywear & Armor**: **Tactical Vest Var1**, **Tactical Vest Var1 Blue**, **Cyber Exoskeleton Frame**, **3 Magazines Chest Rig**, and **Entity-007 "Man of Bricks" Plushie**.
+- **100% Physics Safe**: Completely isolated from player morphs (`MorphAssets`) with zero residual welds/joints, preventing any unwanted physics dragging or player pulling.
+- **Auto-Reapply on Respawn**: Automatically re-equips selected UGC headwear and armor upon character respawn.
+
 ### ☠️ Official Game Kill Effects & Death Boxes (Site-76 Official Engine)
 - **Official In-Game Kill Effects Engine**: Directly hooks into the official `ReplicatedStorage.ClientHandlers.KillEffects` module to trigger authentic death animations upon eliminating enemies.
 - **Official Death Boxes & Bundles**:
