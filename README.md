@@ -52,6 +52,13 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/kingofgetban-cmyk/SCP
 - **Custom Firing Sounds**: Real-time sound replacement with high-caliber audio (Sci-Fi Laser Pulse, Heavy 50 Cal Thunder, Silenced Whisper Tactical, Plasma Railgun Burst, Energy Blaster Hit, AK-47 Thunder, Spas-12 Shotgun, Tactical Pistol, M16A4 Military) with customizable Pitch Slider (0.5x - 2.0x).
 - **Auto-Equip Engine**: Automatically detects weapon switches and equips the selected skin, camo, attachments, particles, and sounds instantaneously.
 
+### 🎒 Character Back Cosmetics & Masks Suite (Official Site-76 3D Models)
+- **Back Accessories & Gear**: Equip authentic 3D back models from the game:
+  - **ISD Tactical Backpack**, **6-Year Anniversary Backpack**, **The Serpents Hand Cape**, **Yama Dark Cape**, **Poseidon Water Trident**, **RRT Heavy Sledgehammer**, **RRT Shotgun Bandolier**, **Holiday Christmas Lights**, **White Soccer Backpack**, **Tactical Exoskeleton Frame**, **Tactical Radio Pack**, and **Black Devil Tail**.
+- **Face Masks & Tactical Helmets**: Equip authentic game masks, helmets, and balaclavas:
+  - **Full Combat Respirator Mask**, **Quad NVG Night Vision Goggles (4-Tube)**, **Tactical Balaclava**, **Protective Halfmask**, **Tactical Combat Visor**, **Alpha-1 Spec-Ops Gasmask**, **Alpha-1 Quad NVG Gasmask**, **Nu-7 Fireeater Gasmask**, **Nu-7 Quad NVG Gasmask**, **Epsilon-11 Nine-Tailed Fox Gasmask**, **Epsilon-11 Quad NVG Gasmask**, **Chaos Insurgency Gasmask**, **CI Red Beret Gasmask**, **Heavy Riot Helmet with Shield**, **Opaque SWAT Riot Helmet**, **FAST High-Cut Tactical Helmet**, **The Nova Dominion Helmet**, **Steampunk Tactical Goggles**, **Autumn Tactical Combat Scarf**, **ISD Red Shemagh Scarf**, **Epsilon-11 Blue Shemagh Scarf**, **Black Tactical Headphone**, and **Tactical Sunglasses**.
+- **Auto-Reapply on Respawn**: Automatically re-equips selected back gear and face masks upon player respawn.
+
 ### ☠️ Official Game Kill Effects & Death Boxes (Site-76 Official Engine)
 - **Official In-Game Kill Effects Engine**: Directly hooks into the official `ReplicatedStorage.ClientHandlers.KillEffects` module to trigger authentic death animations upon eliminating enemies.
 - **Official Death Boxes & Bundles**:
